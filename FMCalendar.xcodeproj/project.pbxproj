@@ -14,6 +14,7 @@
 		8D8B819F1B84D1A2002313D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D8B819E1B84D1A2002313D7 /* Images.xcassets */; };
 		8D8B81A21B84D1A2002313D7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D8B81A01B84D1A2002313D7 /* LaunchScreen.xib */; };
 		8D8B81AE1B84D1A2002313D7 /* FMCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8B81AD1B84D1A2002313D7 /* FMCalendarTests.m */; };
+		8D8B81B91B84D1E8002313D7 /* FMCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8B81B81B84D1E8002313D7 /* FMCalendarView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		8D8B81A71B84D1A2002313D7 /* FMCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D8B81AC1B84D1A2002313D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D8B81AD1B84D1A2002313D7 /* FMCalendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMCalendarTests.m; sourceTree = "<group>"; };
+		8D8B81B71B84D1E8002313D7 /* FMCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMCalendarView.h; sourceTree = "<group>"; };
+		8D8B81B81B84D1E8002313D7 /* FMCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMCalendarView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				8D8B819E1B84D1A2002313D7 /* Images.xcassets */,
 				8D8B81A01B84D1A2002313D7 /* LaunchScreen.xib */,
 				8D8B81911B84D1A2002313D7 /* Supporting Files */,
+				8D8B81B71B84D1E8002313D7 /* FMCalendarView.h */,
+				8D8B81B81B84D1E8002313D7 /* FMCalendarView.m */,
 			);
 			path = FMCalendar;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				8D8B819A1B84D1A2002313D7 /* ViewController.m in Sources */,
 				8D8B81971B84D1A2002313D7 /* AppDelegate.m in Sources */,
 				8D8B81941B84D1A2002313D7 /* main.m in Sources */,
+				8D8B81B91B84D1E8002313D7 /* FMCalendarView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +354,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FMCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +365,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FMCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
